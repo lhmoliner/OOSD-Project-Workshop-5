@@ -1,0 +1,13 @@
+﻿/*
+ * Travel Experts Project #2 - C#, ASP.NET, SQL Server
+ * CSS Stylesheet - About
+ * Created By: John Nguyen (Team 3)
+ * Created On: January 20, 2015
+ */
+body {
+    margin-bottom: -2px;
+}
+section {
+    font-size: 1.1em;
+    padding: 10px 10px 50px 10px;
+}

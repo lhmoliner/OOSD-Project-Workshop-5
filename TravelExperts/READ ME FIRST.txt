@@ -1,0 +1,14 @@
+Workshop 2, Team 3
+Leisy, MB Jae, John
+
+Our database is in this folder, it is a sql query called 'TravelExpertsTeam3.sql', and we have added columns to this table.
+We also have a login page, and your login credentials are shown on the form:
+
+AgentID: 10
+Password: 123
+
+Below is a breakdown of how we have worked on this project, we have included extensive comments in the code.
+
+Leisy: Login form, Agent form, AgentDB, ModifyAgent form, Main form
+MB Jae: Packages form, PackagesDB, Main form, Validator
+John: Product form, ProductDB, SupplierDB, ModifyProductSupplier form, ProductSupplierDB

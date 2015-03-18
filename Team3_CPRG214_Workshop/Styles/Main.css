@@ -1,0 +1,120 @@
+﻿/*
+ * Travel Experts Project #2 - C#, ASP.NET, SQL Server
+ * CSS Stylesheet - Main
+ * Created By: John Nguyen (Team 3)
+ * Created On: January 20, 2015
+ */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("/Images/wallpaper.jpg") no-repeat center center fixed; 
+
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+body {
+    font-family: Calibri,Corbel,sans-serif;
+    margin: 0 auto;
+    width: 800px;
+    height: 100%;
+    display: block;
+    background: rgba(255, 255, 255,0);
+}
+header {
+    background: rgba(255, 255, 255,0.9);
+    border: 2px solid #2F73C1;
+}
+
+.nav ul {
+    list-style: none;
+    background-color: #2F73C1;
+    text-align: left;
+    padding: 0 20px;
+    margin: 0;
+}
+.nav li {
+    margin: 0;
+    padding: 0 16px;
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+}
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+.nav li:hover {
+    background-color: #A6C6EA;
+}
+.nav li.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+section {
+    padding: 10px 10px 30px 10px;
+    display:block;
+    overflow: hidden;
+    background: rgba(255, 255, 255,0.9);
+    border: 2px solid #2F73C1;
+    height: 90%;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight:100 bold;
+    margin-bottom: -14px;
+    padding: 0;
+}
+.h2 {
+    font-size: 1.5em;
+    font-weight:100 bold;
+    margin-bottom: -14px;
+    padding: 0;
+}
+.custdetails {
+    background-color: #2F73C1;
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: bold;
+    width: 140px;
+    border-bottom: 1px solid white;
+}
+.custinfo {
+    padding-left: 20px;
+    border: 1px solid #2F73C1;
+}
+.pkgheader {
+    background-color: #2F73C1;
+    color: white;
+    text-decoration:none;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.pkgborder {
+    border: 1px solid #2F73C1;
+}
+a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #2F73C1;
+    display:block;
+    position:fixed;
+    bottom: 0;
+    width: 800px;
+    margin-bottom: -2px;
+    height: 30px;
+}
+footer p {
+    text-align: center;
+    color: white;
+    margin-top: 4px;
+}

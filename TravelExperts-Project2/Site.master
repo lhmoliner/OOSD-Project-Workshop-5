@@ -1,0 +1,42 @@
+﻿<%-- * CMPP248 Project 2 Website
+     * Site.master Page
+     * Created By: John
+     * January 20th, 2015
+     * --%>
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Travel Experts</title>
+    <link href="Styles/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 100%;">
+    <header>
+        <div class="login_panel"><span id="login"><a href="Login.aspx"><u>Login</u></a></span><span id="logout"><a href="#"><u>Logout</u></a></span> | <a href="Customer.aspx"><u>Account</u></a></div>
+        <a href="Main.aspx"><img alt="" src="Images/logo2.png"/></a>
+        <div class="nav">
+          <ul>
+            <li class="home"><a href="Main.aspx">Home</a></li>
+            <li><a href="#">Packages</a></li>
+            <li class="about"><a href="About.aspx">About</a></li>
+            <li class="blog"><a href="#">Blog</a></li>
+            <li class="contact"><a href="Contact.aspx">Contact</a></li>
+          </ul>
+        </div>
+    </header>
+    <section>
+        <asp:ContentPlaceHolder id="formPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </section>
+    <footer>
+        <p><strong>&copy; 2015, Travel Experts Inc.</strong></p>
+    </footer>
+</body>
+</html>

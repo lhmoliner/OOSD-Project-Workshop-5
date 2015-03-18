@@ -1,0 +1,68 @@
+﻿<!--
+ * Travel Experts Project #2 - C#, ASP.NET, SQL Server
+ * Site.master Page
+ * Created By: John Nguyen (Team 3)
+ * Created On: January 20, 2015
+ -->
+
+<!-- 
+
+    Here is a flower for you, Yolanta.
+
+         .'  `...'  `.
+   __|     |     |__
+ .'    \   .   /    `.
+ |      ./###\.      |
+  >---- |#####| ----<
+ |      `\###/'      |
+ `.__ /    .    \ __.'
+    /|     |     |
+   / `.___.^.___.'
+  |
+  |
+   \
+    \             )\
+     `.          /' |
+       \       /'   )
+        \    /'    /'
+         \  /'    /'
+          \(    /'
+           )  /'
+           | /'
+           |(  Team 3
+           ||
+
+    -->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Travel Experts</title>
+    <link href="Styles/Main.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="headPlaceHolder" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 100%;">
+    <header>
+        <img alt="" src="Images/logo2.png" />
+        <div class="nav">
+          <ul>
+            <li class="home"><a href="Main.aspx">Home</a></li>
+            <li class="about"><a href="About.aspx">About</a></li>
+          </ul>
+        </div>
+    </header>
+    <section>
+        <asp:ContentPlaceHolder id="formPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </section>
+    <footer>
+        <p><strong>&copy; 2015, Travel Experts Inc.</strong></p>
+    </footer>
+</body>
+</html>

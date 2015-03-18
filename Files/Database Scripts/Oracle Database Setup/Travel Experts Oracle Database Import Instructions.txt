@@ -1,0 +1,13 @@
+Travel Experts Oracle Database
+Setup Instructions
+
+1:  create a new user - ICTOOSD, password=ICTOOSD
+	roles:  CONNECT, RESOURCE
+	system priveleges:  UNLIMITED TABLESPACE
+	leave the rest as default
+
+2:  make a directory on c:\ called exp, copy the script file ict_schema_exp.dmp into the directory
+
+3:  run the import command at the command-line
+imp userid=system/oracle@orcl FILE=./ict_schema_exp.dmp FROMUSER=ictoosd TOUSER=ictoosd LOG=./ict_schema_imp.log
+

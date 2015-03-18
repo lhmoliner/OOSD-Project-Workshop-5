@@ -1,0 +1,36 @@
+﻿/*
+ * Travel Experts Project #2 - C#, ASP.NET, SQL Server
+ * CSS Theme - Summer
+ * Created By: John Nguyen (Team 3)
+ * Created On: January 21, 2015
+ */
+html {
+    background-image:url("/Images/wallpaper2.jpg");
+}
+header {
+    border: 2px solid #D14545;
+}
+section {
+    border: 2px solid #D14545;
+}
+.nav ul {
+    background-color: #D14545;
+}
+.nav li:hover {
+    background-color: #ccc;
+}
+.custdetails {
+    background-color: #D14545;
+}
+.custinfo {
+    border: 1px solid #D14545;
+}
+.pkgheader {
+    background-color: #D14545;
+}
+.pkgborder {
+    border: 1px solid #D14545;
+}
+footer {
+    background-color: #D14545;
+}
